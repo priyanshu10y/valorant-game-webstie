@@ -385,4 +385,280 @@ i{
 }
 
 
+/* your agents  */
 
+.your-agents{
+    background-image: url(images/your-agents-bg.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 2% 2%;
+    width: 100%;
+    height: auto;
+    
+}
+
+.agents-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.agents-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.agents-right-content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.agents-right .agents-right-content h1{
+    color: #ece8e1;
+    font-size: 150px;
+    font-family: tung;
+    padding-bottom: 1.6rem;
+   
+}
+
+.agents-right .agents-right-content h4{
+    color: white;
+    font-size: 18px;
+    text-align: start;
+    padding-bottom: 1rem;
+}
+
+.agents-right .agents-right-content p{
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    padding-bottom: 5rem;
+    font-family: din;
+}
+
+.agents-btn{
+    background-color: #0f1923;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    position: relative;
+    outline: 1px solid white;
+    outline-offset: 4px;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.agents-btn:hover{
+    background-color: white;
+    color: #0f1923;
+}
+
+
+
+/* maps  */
+
+.maps{
+    background-image: url(images/maps-bg3.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 5% 2%;
+}
+
+.maps-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.maps-left{
+ 
+    /* height: 100%; */
+    /* gap: 2rem; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 1%;
+}
+
+
+.maps-left h1{
+    font-family: tung;
+    font-size: 150px;
+    color: rgba(15, 25, 35, 1);
+    line-height: 0.9;
+    
+}
+
+.maps-left h4{
+    font-size: 18px;
+    font-family: din;
+    font-weight: bold;
+    padding: 0.8rem 0 1rem 0;
+}
+
+.maps-left p{
+    line-height: 1.5;
+    font-family: din;
+    font-size: 18px;
+    padding-bottom: 4rem;
+}
+
+.vr-learn{
+    background-color: #ff4655;
+    color: white;
+    padding: 1.5rem 2rem;
+    border: none;
+    position: relative;
+    /* outline: 1px solid white;
+    outline-offset: 4px; */
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.vr-learn:hover{
+    background-color:rgba(15, 25, 35, 1) ;
+}
+
+.vr-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vr-right img{
+    width: 80%;
+}
+
+
+/* footer  */
+
+footer{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-top{
+background-color: #292929;
+display: flex;
+justify-content: center;
+gap: 2rem;
+padding: 2rem 0;
+font-size: 13px;
+
+}
+
+.footer-top a{
+    text-decoration: none;
+    color: white;
+    font-family: ff;
+    transition: 0.3s ease-in-out;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.footer-top a:hover{
+    background-color: #404040;
+}
+
+
+
+.f-riot img:nth-child(1){
+    width: 120px;
+}
+
+/* footer bottom  */
+
+.footer-bottom{
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5% 0;
+}
+
+.f-icons{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.f-icons i{
+    background-color: #404040;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.f-riot{
+    padding: 1rem 0 2rem 0;
+}
+
+.f-riot img{
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.f-riot img:first-child{
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+}
+
+.f-riot img:first-child:hover{
+    opacity: 1;
+
+}
+
+.f-info p{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.f-info p i{
+    font-size: 12px;
+}
+
+
+.f-legal{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.f-legal a{
+    text-decoration: none;
+    color: white;
+    font-family: ff;
+    transition: 0.3s ease-in-out;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.f-legal a:hover{
+    background-color: #404040;
+}
+
+.f-img img{
+    padding: 1rem;
+    background-color: #404040;
+    border-radius: 10px;
+}
